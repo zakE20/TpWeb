@@ -1,3 +1,52 @@
-.icom{
-    justify-content: center;
+body {
+    background-color: rgb(47, 11, 80);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.title {
+    color: rgb(95, 18, 95);
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.main-nav .acheter a {
+    border: 2px solid violet; /* Ajout de la bordure */
+    border-radius: 5px; /* Arrondir les coins */
+    padding: 5px 10px; /* Ajouter du padding pour rendre la bordure plus visible */
+    transition: background-color 2s ease; /* Transition pour un effet au survol */
+    color: rgb(95, 18, 95);
+    cursor: pointer;
+}
+.main-nav li a:hover{
+    background-color: red;
+    border-radius: 20px; /* Changer la couleur de fond au survol */
 }
