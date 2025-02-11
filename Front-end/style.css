@@ -1,0 +1,368 @@
+body {
+    background-color: rgb(47, 11, 80);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header {
+    padding: 20px;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap:wrap;
+}
+
+.nav-title {
+    color: rgb(236, 77, 236);
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.nav-toggle .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    gap: 28px;
+    }
+
+.main-nav li {
+    margin: 0 15px;
+    flex-direction: row-reverse;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.main-nav .acheter a {
+    border: 2px solid violet; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    transition: background-color 2s ease; 
+    color: rgb(95, 18, 95);
+    cursor: pointer;
+}
+.main-nav li a:hover{
+    background-color: red;
+    border-radius: 20px; 
+}
+.container {
+    justify-content: center; 
+    padding: 20px;
+    margin : 15 auto;
+}
+
+.main {
+    display: flex;
+    max-width: 100%; 
+    margin: 0 auto; 
+    flex-direction: row-reverse;
+    background-color:rgb(40, 12, 63);
+    border-radius: 5px;
+}
+.main .left img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-right:8px;
+}
+
+
+
+
+
+
+.right {
+    flex: 1; 
+    padding: 20px 15px;
+}
+
+.right h1 {
+    font-family: 'Arial', sans-serif;
+    margin: 0 0 10px;
+    font-size: 37px;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+.right p {
+    margin: 15px 0;
+    color:white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.btn:hover {
+    background-color: darkviolet;
+}
+.social {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap:10px;
+    flex-wrap: wrap;    
+}
+
+.social a {
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border :1px solide white;
+    
+}
+
+.social a img {
+    border :1px solid white;
+    width: 90px; 
+    height: 85px; 
+    box-shadow: 0 2px 4px rgba(14, 219, 147, 0.941);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(46, 41, 41);
+    flex-wrap: wrap;
+}
+
+.social a:hover img {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(157, 17, 17, 0.4);
+}
+.column1, .column2, .column3 {
+    flex: 1;
+}
+.footer {
+    background-color: rgb(47, 11, 80);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00; 
+}
+
+.column1 ul, .column2 ul, .column3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column1 li, .column2 li, .column3 li {
+    margin: 5px 0;
+    padding: 5px 0;
+    cursor:pointer;
+}
+
+.column1 h5, .column2 h5, .column3 h5 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    background-color: rgb(47, 11, 80);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+.main-presentation{
+    background-color: #13181d;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+.main-presentation .text-presentation .new{
+    color: rgb(236, 77, 236);
+    margin: 0px;
+    padding: 20px;
+    margin-top:35px;
+}
+.main-presentation .image-presentation img{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.main-presentation .text-presentation p{
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+.main-presentation .text-presentation .btn-presentation{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: hotpink;
+    color:white;
+    margin-left: 20px;
+    
+}
+.main-presentation .text-presentation h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 768px ) and (min-width:50px){
+   
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding :10px;
+    }
+    .main-presentation{
+        flex-direction: column-reverse;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    
+    .social {
+        flex-direction: column;
+    }
+    .main-presentation .image-presentation img{
+        width: 100%;
+    }
+    .main .right .h1{
+        font-size: 2em;
+    }
+    .main-presentation .text-presentation .h1{
+        font-size: 2em;
+    }
+    .nav-toggle {
+        display: flex;
+        color:white;
+        align-items: end;
+        z-index: 1000;
+        position: relative;
+        transition: 0.3s;
+  
+
+        
+    }
+
+
+    .nav-toggle .hamburger {
+        width: 25px;
+        height: 3px;
+        margin: 5px ;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 66px;
+        right: 0;
+        align-items: center;
+        width: 300px;
+        right: -400px;
+        height: 100vh;
+        transition: 0.5s ease-in-out;
+    }
+    .active {
+        right: 0;
+    }
+    .main-nav li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    
+    
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 20px;
+        flex-direction: row-reverse;
+    }
+    .main-nav .acheter a {
+        border: none;
+        padding: 5px 10px;
+        transition: background-color 2s ease;
+        color: rgb(95, 18, 95);
+        cursor: pointer;
+   
+    }
+}
+        
+    
+    
+
